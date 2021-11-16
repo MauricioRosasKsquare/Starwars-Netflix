@@ -5,7 +5,7 @@ export const Footer = () => {
 
         </div>
         <div style={{backgroundColor: "yellow" }} align="center">
-             <a  href="https://github.com/MauricioRosasKsquare/Starwars-Netflix-Base" rel="noopener noreferrer" target="_blank">Github Repository</a>
+             <a  href="https://github.com/MauricioRosasKsquare/Starwars-Netflix" rel="noopener noreferrer" target="_blank">Github Repository</a>
 
         </div>
         </>
