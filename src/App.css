@@ -1,0 +1,118 @@
+#imgCarousel{
+  width: 850px;
+  height: 500px;
+}
+
+#brandLogo{
+  max-height: 50px;
+}
+
+body{
+  background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg");
+}  
+
+.row_poster{
+  height: 360px;
+  width: 235px;
+}
+
+.title_row{
+  color: #fff;
+  padding-left: 20%;
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+
+    right:10px;
+    padding: 30px;
+    color:rgb(255, 233, 25)!important;
+    fill: rgb(255, 233, 25) !important;
+    stroke: rgb(255, 233, 25) !important;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.flip-card {
+  background-color: transparent;
+  height: 360px;
+  width: 235px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  perspective: 1000px; 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+  box-shadow: 0px 0px ;
+  -webkit-box-shadow: 0px 0px 58px 14px rgba(47,42,199,1);
+  -moz-box-shadow: 0px 0px 58px 14px rgba(47,42,199,1);
+  box-shadow: 0px 0px 58px 14px rgba(47,42,199,1);
+}
+
+
+.pCard{
+  text-align: left;
+  padding-left: 5%;
+}
+
+
+.buttonCard{
+  position: absolute;
+  left: 25%;
+  bottom: 10%;
+
+}
+
+
+hr{
+  color: white;
+  border: white;
+}
+
+
+#spinnerColor{
+  color: rgb(255, 233, 25)!important;
+}
+
+#colorButton{
+  background-color: rgb(255, 233, 25)!important;
+  border-color: rgb(255, 233, 25)!important;
+  color: black;
+  font-weight: bold;
+}
